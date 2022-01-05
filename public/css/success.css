@@ -1,0 +1,110 @@
+.nav_btn_style {
+  height: 22px;
+  /* width: 73px; */
+  color: #363636;
+  /* font-family: "Futura PT"; */
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1.75px;
+  line-height: 22px;
+  text-align: center;
+}
+.nav_btn_style:hover {
+  height: 22px;
+  /* width: 98px; */
+  color: #363636;
+  /* font-family: "Futura PT"; */
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1.75px;
+  line-height: 22px;
+  text-align: center;
+}
+.success_h1_style > h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: #363636;
+  /* font-family: "Futura PT"; */
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 3.71px;
+  line-height: 34px;
+  /* text-align: center; */
+}
+.success_p_style > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  color: #363636;
+  /* font-family: "Futura PT"; */
+  font-size: 26px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 40px;
+  /* text-align: center; */
+}
+.success {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .success_h1_style > h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: #363636;
+    /* font-family: "Futura PT"; */
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3.71px;
+    line-height: 34px;
+    /* text-align: center; */
+  }
+}
+
+@media (max-width: 767px) {
+  .success_h1_style > h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: #363636;
+    /* font-family: "Futura PT"; */
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2.71px;
+    line-height: 22px;
+    /* text-align: center; */
+  }
+  .success_p_style > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    color: #363636;
+    /* font-family: "Futura PT"; */
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 40px;
+    /* text-align: center; */
+  }
+}
